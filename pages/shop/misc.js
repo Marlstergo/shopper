@@ -43,4 +43,4 @@ const mapDispatchToProps = (dispatch) => ({
 const mapStateToProps = createStructuredSelector({
   products: selectProducts,
 });
-export default connect(mapStateToProps, mapDispatchToProps)(WomMiscen);
+export default connect(mapStateToProps, mapDispatchToProps)(Misc);
