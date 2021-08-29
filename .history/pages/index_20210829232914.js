@@ -16,7 +16,7 @@ const Home = ({ loadProducts }) => {
     };
   }, []);
   return (
-    <div className="flex flex-col h-[100vh] py-2 ">
+    <div className="flex flex-col h-[85vh] py-2 ">
       <Head>
         <title>Shopper</title>
         {/* <link rel="icon" href="/favicon.ico" /> */}

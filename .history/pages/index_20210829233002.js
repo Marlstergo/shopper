@@ -16,7 +16,7 @@ const Home = ({ loadProducts }) => {
     };
   }, []);
   return (
-    <div className="flex flex-col h-[100vh] py-2 ">
+    <div className="flex flex-col h-[85vh] py-2 ">
       <Head>
         <title>Shopper</title>
         {/* <link rel="icon" href="/favicon.ico" /> */}
@@ -65,7 +65,7 @@ const Home = ({ loadProducts }) => {
             </div>
           </div>
           <div className="col-span-3">
-            <div className="grid grid-cols-2 gap-6 gap-x-16 h-full">
+            <div className="grid grid-cols-2 gap-6 gap-x-16 h-72 h-full">
               <div
                 className="flex justify-center items-center relative h-full px-10"
                 onClick={() => {
