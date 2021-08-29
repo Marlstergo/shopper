@@ -52,12 +52,11 @@ const Home = ({ loadProducts }) => {
             </div>
           </div>
           <div
-            className="flex justify-center items-center relative"
+            className="flex justify-center items-center"
             onClick={() => {
               route.push("/shop/jewelery");
             }}
           >
-            <Image src={`https://th.bing.com/th/id/R.ed66b0a0d1ff73172855287cf723febc?rik=5Rd%2fXfPuD4zIUQ&pid=ImgRaw&r=0`} layout="fill" />
             <div className="bg-white bg-opacity-30 z-50 font-semibold cursor-pointer">
               <p className="">03:</p>
               <p className="capitalize">jewelery</p>
@@ -72,7 +71,7 @@ const Home = ({ loadProducts }) => {
                   route.push("/shop/misc");
                 }}
               >
-                <Image src={`https://www.inspiringwomen.co.za/wp-content/uploads/2014/10/shopping.jpg`} layout="fill" />
+                <Image src={`https://th.bing.com/th/id/OIP.i26SAgaRCjxKYvhGBgTxJwHaDt?pid=ImgDet&rs=1`} layout="fill" />
                 <div className="bg-white bg-opacity-30 z-50  font-semibold cursor-pointer">
                   <p className="">04:</p>
                   <p className="capitalize">misc</p>
