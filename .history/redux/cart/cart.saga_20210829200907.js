@@ -13,7 +13,7 @@ export function* clearCartItems(){
 
 export function* cartSagas(){
     yield all([
-        // call(onSignOutUser)
+        call(onSignOutUser)
         ])
 }
 

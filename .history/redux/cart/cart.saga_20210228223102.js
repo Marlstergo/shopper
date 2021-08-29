@@ -7,13 +7,13 @@ export function* clearCartItems(){
     yield put(clearCart())
 }
 
-// export function* onSignOutUser (){ 
-//     yield (takeLatest(UserActionTypes.SIGN_OUT_USER_SUCCESS, clearCartItems))
-// }
+export function* onSignOutUser (){ 
+    yield (takeLatest(UserActionTypes.SIGN_OUT_USER_SUCCESS, clearCartItems))
+}
 
 export function* cartSagas(){
     yield all([
-        // call(onSignOutUser)
+        call(onSignOutUser)
         ])
 }
 

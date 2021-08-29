@@ -53,7 +53,7 @@ const Layout = ({
               >
                 Shop
               </p>
-              <p className="ml-3 cursor-pointer flex" onClick={toggleCartHidden}>
+              <p className="ml-3 cursor-pointer" onClick={toggleCartHidden}>
                 <ShoppingBag/> {cartCount}
               </p>
               {hidden ? null : <CartDropdown />}

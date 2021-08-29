@@ -45,7 +45,7 @@ const Home = ({ loadProducts }) => {
             }}
           >
             <Image className="hover:scale-110 transform overflow-hidden duration-500 cursor-pointer" src={`https://th.bing.com/th/id/OIP.rev9JIXOaHpLXkbpAQcJlQHaEo?pid=ImgDet&rs=1`} layout="fill" />
-            <div className="bg-white bg-opacity-30 font-semibold cursor-pointer z-50">
+            <div className="bg-white bg-opacity-30 font-semibold cursor-pointer">
               <p className="">02:</p>
               <p className="capitalize">electronics</p>
               <p className="">Shop Now</p>
@@ -57,7 +57,7 @@ const Home = ({ loadProducts }) => {
               route.push("/shop/jewelery");
             }}
           >
-            <Image className="hover:scale-110 transform overflow-hidden duration-500 cursor-pointer"  src={`https://th.bing.com/th/id/R.1339a71e0ae39db7b3da56965ca0e34f?rik=fb3X%2b526ujgWsQ&riu=http%3a%2f%2fimages5.alphacoders.com%2f312%2f312828.jpg&ehk=ICC0XsnwGbG9tOw3UEm%2boV4VDDpqNyljbG6f5WAF4BI%3d&risl=&pid=ImgRaw&r=0`} layout="fill" />
+            <Image className="hover:scale-110 transform overflow-hidden duration-500 cursor-pointer"  src={`https://th.bing.com/th/id/R.ed66b0a0d1ff73172855287cf723febc?rik=5Rd%2fXfPuD4zIUQ&pid=ImgRaw&r=0`} layout="fill" />
             <div className="bg-white bg-opacity-30 z-50 font-semibold cursor-pointer">
               <p className="">03:</p>
               <p className="capitalize">jewelery</p>

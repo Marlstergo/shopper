@@ -45,7 +45,7 @@ const Home = ({ loadProducts }) => {
             }}
           >
             <Image className="hover:scale-110 transform overflow-hidden duration-500 cursor-pointer" src={`https://th.bing.com/th/id/OIP.rev9JIXOaHpLXkbpAQcJlQHaEo?pid=ImgDet&rs=1`} layout="fill" />
-            <div className="bg-white bg-opacity-30 font-semibold cursor-pointer z-50">
+            <div className="bg-white bg-opacity-30 font-semibold cursor-pointer">
               <p className="">02:</p>
               <p className="capitalize">electronics</p>
               <p className="">Shop Now</p>
